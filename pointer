@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+    int a=10;
+    int *p;
+    p=&a;
+    printf("the value of a is %u\n",a);
+    printf("the address of a is %u\n",&a);
+    printf("the value of p is %u\n",p);
+    printf("the value of p value is %u\n",*p);
+    printf("the address of p is %u\n",&p);
+    printf("the value is %u\n",*(&a));
+ }
